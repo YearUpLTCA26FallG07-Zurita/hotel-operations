@@ -5,7 +5,6 @@ public class Reservation {
     private int numberOfNights;
     private boolean isWeekend;
 
-
     public String getRoomType() {
         return roomType;
     }
