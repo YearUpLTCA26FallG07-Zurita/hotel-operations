@@ -17,13 +17,13 @@ public class Reservation {
         if (!isWeekend) {
             if (this.roomType.equalsIgnoreCase("king")) {
                 return 139.00;
-            } else if (this.roomType.equalsIgnoreCase("queen")) {
+            } else if (this.roomType.equalsIgnoreCase("double")) {
                 return 124.00;
             }
         } else {
             if (this.roomType.equalsIgnoreCase("king")) {
                 return 139.00 + 139.00 * 0.10;
-            } else if (this.roomType.equalsIgnoreCase("queen")) {
+            } else if (this.roomType.equalsIgnoreCase("double")) {
                 return 124.00 + 124.00 * 0.10;
             }
         }
